@@ -1,0 +1,122 @@
+/* USE THIS TO MAKE ALL IMAGES FLUID (RESPONSIVE) OR PUT class="img-fluid" ON EACH IMAGE*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* page background color and 1 pixel separator line in between navigation bar and header | brownish/grey: 42413C */
+html, body {
+	height: 100%;
+	background-color: #42413C;
+}
+/*header, footer and nav background color | light greenish/teal: 7bb8a5 */
+.bg-dark, header, footer {
+	background-color: #7bb8a5!important;
+}
+/* active button state background color | light green: 9ed3c2 */
+.active {
+	background-color: #9ed3c2;
+}
+/* keep shark fin logo dark */
+a.navbar-brand {
+	color: #333!important;
+	font-size: 1rem;
+}
+
+/* change certain fonts to google fonts */
+h1, h2 {
+	font-family: 'Freckle Face', cursive;
+}
+/* change hover color from white */
+a.nav-link {
+	color: #fff!important;
+}
+.active a.nav-link {
+	color: #333!important;
+}
+
+a.nav-link:hover {
+	color: #333!important;
+}
+
+.active a.nav-link:hover {
+	color: #333!important;
+}
+.nav-item {
+	padding: 0 .5rem;
+}
+/* dark green background on all non-active links */
+.nav-item {
+	background-color: #3B8686; 
+}
+/*
+.nav-lg-item {
+	background-color: 
+	#7bb8a5;
+}
+*/
+.nav-item.active {
+	background-color: #9ed3c2;
+}
+/* make article body text except h2 dark gray */
+h1, p, a {
+	color: #333;
+}
+/* style horn shark caption /* SHORTHAND FONT PROPERTY -- NO FONT COLOR
+  font: font-style font-variant font-weight font-size/line-height font-family;
+*/
+figcaption {
+	font-size: .5rem;
+	color: #666;
+	padding: 0 15px;
+}
+/* Aside background color and article h2 color | dark teal: 3B8686 */
+aside {
+	background-color: #3B8686;
+}
+.blueHead {
+	color: #3B8686;
+}
+/* border at top of header (h1) */
+.border-top {
+	border-color: #42413C!important;
+}
+
+.border-bottom {
+	border-color: #9ed3c2!important;
+	border-bottom-width: 1px!important;
+}
+/* keep article background at  white */
+article {
+	background-color: #fff;
+}
+/* make aside text white */
+aside p, aside h1, aside h2 {
+	color: #fff;
+}
+
+/* aside horizontal spacing */
+aside h1, aside h2, aside p {
+	padding: .1rem 1rem;
+}
+
+@media (min-width: 992px) {
+	.nav-item {
+		border-bottom-width: 0!important;
+		background: none;
+	}
+	
+	a.nav-link {
+	color: #333!important;
+}
+	.active a.nav-link {
+	color: #333!important;
+}
+
+	a.nav-link:hover {
+	color: #3B8686!important;
+}
+
+	.active a.nav-link:hover {
+	color: #333!important;
+}
+}
